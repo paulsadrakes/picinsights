@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  #get 'pages/home'
+
+  #get 'pages/action'
+
   root "pages#home"             # updated home page
   get "about" => "pages#about"  # creates about_path
 
